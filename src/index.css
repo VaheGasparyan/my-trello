@@ -1,1 +1,10 @@
-@import "tailwindcss"
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-rubik: "Rubik", sans-serif;
+    --color-login-wrapper-bg: #F8F9FB;
+    --color-login-form-bg: #fff;
+    --color-light-blue-text-color: #3B82F6;
+    --color-border-color: #fafafb;
+};
